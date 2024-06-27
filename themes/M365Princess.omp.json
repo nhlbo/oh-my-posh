@@ -95,6 +95,17 @@
           "template": " \u2665 {{ .CurrentDate | date .Format }} ",
           "trailing_diamond": "\ue0b0",
           "type": "time"
+        },
+        {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "foreground": "#100e23",
+          "background": "#906cff",
+          "template": "  {{ .Venv }} ",
+          "properties": {
+            "home_enabled": true
+          }
         }
       ],
       "type": "prompt"
